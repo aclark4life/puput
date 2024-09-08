@@ -24,12 +24,12 @@ setup(
     keywords="django wagtail puput blog cms app",
     description='A Django blog app implemented in Wagtail.',
     long_description=codecs.open(os.path.join(os.path.dirname(__file__), 'README.rst'), encoding='utf-8').read(),
-    install_requires=[
-        'wagtail>=5.2,<7.0',
-        'django-el-pagination==4.0.0',
-        'django-taggit>=5.0,<5.1',
-        'wagtail-markdown==0.11.1'
-    ],
+    # install_requires=[
+    #     'wagtail>=5.2,<7.0',
+    #     'django-el-pagination==4.0.0',
+    #     'django-taggit>=5.0,<5.1',
+    #     'wagtail-markdown==0.11.1'
+    # ],
     url='http://github.com/APSL/puput',
     author=get_metadata('puput', 'author'),
     author_email=get_metadata('puput', 'email'),
